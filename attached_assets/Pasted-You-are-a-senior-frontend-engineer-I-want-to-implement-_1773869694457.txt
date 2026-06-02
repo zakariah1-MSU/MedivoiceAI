@@ -1,0 +1,164 @@
+You are a senior frontend engineer.
+
+I want to implement TWO separate portals in my React + Vite + Tailwind + shadcn + Framer Motion app:
+
+1. Pharmacy Portal
+2. Dealer Portal
+
+---
+
+### 1. LANDING PAGE (PORTAL SELECTOR)
+
+Create a modern landing page with:
+
+* Two large interactive cards:
+
+  * Pharmacy Portal
+  * Dealer Portal
+
+Each card should:
+
+* Have hover animation (scale + shadow + slight tilt)
+* Show icon + title + description
+* Have a button: “Enter Portal”
+* Use gradient backgrounds
+
+Clicking:
+
+* Pharmacy → /pharmacy/dashboard
+* Dealer → /dealer/dashboard
+
+---
+
+### 2. ROUTING STRUCTURE
+
+Implement clean routing:
+
+/                → Landing page
+/pharmacy/*      → Pharmacy portal
+/dealer/*        → Dealer portal
+
+Each portal should have its own:
+
+* Layout
+* Sidebar
+* Navigation
+
+---
+
+### 3. PHARMACY PORTAL UI
+
+Create layout with sidebar + topbar.
+
+Pages:
+
+* Dashboard
+* Chat / Call Interface
+* Inventory
+* Orders
+* History
+
+Features:
+
+* Chat UI with AI (animated messages, typing effect)
+* Low stock alerts (highlight cards)
+* AI suggestions panel
+* Recent conversations list
+
+---
+
+### 4. DEALER PORTAL UI
+
+Create a different layout (more business-focused).
+
+Pages:
+
+* Dashboard
+* Orders
+* Pharmacies
+* Inventory
+* Offers
+
+Features:
+
+* Incoming orders list (animated entries)
+* Stats cards (orders, revenue, alerts)
+* Table with sorting + filtering
+* Activity feed (latest events)
+
+---
+
+### 5. SIDEBAR (IMPORTANT)
+
+Each portal must have:
+
+* Animated sidebar
+* Active page highlight
+* Icons (lucide-react)
+* Collapse/expand animation
+
+Pharmacy Sidebar:
+
+* Dashboard
+* Chat
+* Inventory
+* Orders
+
+Dealer Sidebar:
+
+* Dashboard
+* Orders
+* Pharmacies
+* Offers
+
+---
+
+### 6. UI DIFFERENTIATION
+
+Make portals visually different:
+
+Pharmacy:
+
+* Softer colors (blue/green)
+* Friendly AI feel
+
+Dealer:
+
+* Professional (dark/neutral)
+* Business dashboard feel
+
+---
+
+### 7. ANIMATIONS
+
+Use Framer Motion:
+
+* Page transitions
+* Sidebar animation
+* Card hover effects
+* List animations
+
+---
+
+### 8. CODE QUALITY
+
+* Do NOT break backend APIs
+* Use reusable components
+* Keep layout modular
+
+---
+
+### FINAL RESULT
+
+The app should feel like:
+
+* Two completely separate professional portals
+* Clean navigation between them
+* Smooth animations and interactions
+
+Start by:
+
+1. Landing page
+2. Routing
+3. Pharmacy layout
+4. Dealer layout

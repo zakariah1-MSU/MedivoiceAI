@@ -1,0 +1,74 @@
+You are a senior frontend UI/UX engineer.
+
+I have a React + Vite + Tailwind + shadcn/ui project with Framer Motion already installed.
+
+Your task is to redesign and enhance the UI to look like a modern, premium SaaS product (similar to Stripe, Notion, Apple, or Linear).
+
+Requirements:
+
+1. Visual Design Improvements:
+- Use a clean, modern layout with proper spacing, padding, and alignment
+- Add soft shadows, rounded corners (2xl), and glassmorphism where appropriate
+- Improve typography hierarchy (large headings, subtle subtext)
+- Use gradient backgrounds and subtle color transitions
+- Make it look minimal but premium (avoid clutter)
+
+2. Animations & Interactions:
+- Use Framer Motion for smooth animations:
+  - Page transitions (fade + slide)
+  - Hover effects on cards and buttons
+  - Smooth scaling and elevation on hover
+  - Animated sidebar and modals
+- Add micro-interactions (button click feedback, loading states, skeletons)
+
+3. Layout Enhancements:
+- Improve the landing page:
+  - Add a hero section with headline + subtext + CTA button
+  - Add animated feature cards
+- Improve dashboards:
+  - Use card-based UI
+  - Add grid layouts for responsiveness
+- Improve navigation:
+  - Sticky navbar with blur effect
+  - Collapsible animated sidebar
+
+4. Components Upgrade:
+- Enhance existing shadcn components with:
+  - Better spacing
+  - Hover animations
+  - Icons (lucide-react)
+- Add reusable components:
+  - Animated cards
+  - Gradient buttons
+  - Section containers
+
+5. Dark Mode:
+- Improve dark mode styling using existing Tailwind config
+- Ensure all components look premium in both light and dark modes
+
+6. Responsiveness:
+- Make the UI fully responsive (mobile + tablet + desktop)
+- Use smooth stacking and adaptive layouts
+
+7. Performance:
+- Keep animations smooth and not excessive
+- Use lazy loading where needed
+
+8. Code Quality:
+- Do NOT break existing functionality
+- Refactor components cleanly
+- Keep code modular and reusable
+
+Bonus:
+- Add subtle background animations (gradient movement or particles)
+- Add loading skeletons instead of spinners
+- Add empty states with illustrations
+
+Start by improving:
+1. Landing page
+2. Navigation (navbar + sidebar)
+3. Dashboard cards
+
+Then continue improving the rest of the app.
+
+Explain what changes you are making and update the code accordingly.
